@@ -1,0 +1,16 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class OpcionesMenu : MonoBehaviour
+{
+    public void vamosAjugar()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void salirDelJuego()
+    {
+        Debug.Log("Saliendo del juego...");
+        Application.Quit();
+    }
+}
